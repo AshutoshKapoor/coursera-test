@@ -3,7 +3,6 @@ body{
 	font-family: 'Nunito', sans-serif;
 	color: #fff;
 	background-color: #61122f!important;
-	width: 100%;
 }
 
 #header-nav{
@@ -12,6 +11,9 @@ body{
 	border: 0;
 }
 
+.container{
+	width: 100%!important;
+}
 
 #navbarSupportedContent{
 	position: absolute;
@@ -118,6 +120,8 @@ body{
 #menu-tile:hover, #specials-tile:hover, #map_tile:hover{
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
+
+
 
 .navbar-brand {
 	margin-right: 0;
@@ -440,6 +444,10 @@ body{
 	#menu-tile, #specials-tile{
 		width:360px;
 		margin: 0 auto 15px;
+	}
+
+	.navbar-brand h1{
+		font-size: 1.3em;
 	}
 
 	.panel-footer{
